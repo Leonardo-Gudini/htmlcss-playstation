@@ -1,0 +1,53 @@
+/*
+PALETTE COLORI
+*/
+
+:root{
+    --bg-black: #000;
+
+    --button-gray: #393939;
+}
+
+/*
+REGOLE COMUNI
+*/
+.custom-button{
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.custom-btn-gray{
+    background-color: var(--button-gray);
+}
+
+/*
+HEADER
+*/
+header{
+    width: 100%;
+}
+#header-title{
+    text-align: right;
+    padding: 5px 10px 5px 5px;
+    background-color: var(--bg-black);
+}
+
+#header-title img{
+    height: 20px;
+}
+
+/*
+NAVBAR
+*/
+
+nav.navbar{
+    height: 80px;
+}
+
+.custom-search img{
+    height: 30px;
+    margin: 5px 20px 0px 20px;
+    cursor: pointer;
+}
