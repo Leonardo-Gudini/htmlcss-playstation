@@ -4,8 +4,10 @@ PALETTE COLORI
 
 :root{
     --bg-black: #000;
+    --bg-white: #fff;
 
     --button-gray: #393939;
+    --button-red: #B13F1B;
 }
 
 /*
@@ -22,11 +24,17 @@ REGOLE COMUNI
     background-color: var(--button-gray);
 }
 
+.custom-btn-red{
+    background-color: var(--button-red);
+}
+
 /*
 HEADER
 */
 header{
     width: 100%;
+    top: 0;
+    left: 0;
 }
 #header-title{
     text-align: right;
@@ -43,11 +51,38 @@ NAVBAR
 */
 
 nav.navbar{
-    height: 80px;
+    background-color: var(--bg-white);
 }
 
 .custom-search img{
     height: 30px;
     margin: 5px 20px 0px 20px;
     cursor: pointer;
+}
+
+nav .navbar-toggler{
+    filter: invert(1);
+}
+
+
+/*
+MAIN
+*/
+main{
+    margin-top: 100px;
+}
+
+/*
+JUMBO
+*/
+
+#jumbo{
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    height: 650px;
+}
+
+#jumbo .container{
+    padding: 300px 0 0 50px;
+
 }
