@@ -5,10 +5,13 @@ PALETTE COLORI
 :root{
     --bg-black: #000;
     --bg-white: #fff;
+    --color-dark-blue: #1E223D;
     --color-blue: #4464E2;
     --color-gray: #242424;
+    --color-light-gray: #BCBAB9;
 
     --button-gray: #393939;
+    --button-light-gray: #D8D9DB;
     --button-red: #B13F1B;
 }
 
@@ -36,6 +39,10 @@ body{
 
 .custom-btn-blue{
     background-color: var(--color-blue);
+}
+
+.custom-btn-light-gray{
+    background-color: var(--button-light-gray);
 }
 
 /*
@@ -110,4 +117,19 @@ SECTION NEW RELEASE
 }
 
 /*
+SECTION PS-PLUS
 */
+#ps-plus{
+    background-color: var(--color-light-gray);
+}
+
+#ps-plus .custom-btn-light-gray{
+    color: var(--color-blue);
+} 
+
+/*
+SECTION PS NOW
+*/
+#ps-now{
+    background-color: var(--color-dark-blue);
+}
