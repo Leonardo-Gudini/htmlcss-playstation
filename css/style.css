@@ -13,6 +13,8 @@ PALETTE COLORI
     --button-gray: #393939;
     --button-light-gray: #D8D9DB;
     --button-red: #B13F1B;
+
+    --footer-color: #274598;
 }
 
 /*
@@ -132,4 +134,28 @@ SECTION PS NOW
 */
 #ps-now{
     background-color: var(--color-dark-blue);
+}
+
+/*
+SECTION FOOTER
+*/
+footer{
+    background-color: var(--footer-color);
+}
+
+footer .custom-ps-logo{
+    height: 80px;
+}
+
+footer .custom-globo{
+    height: 20px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li{
+    margin: 10px 0;
+    cursor: pointer;
 }
