@@ -5,6 +5,7 @@ PALETTE COLORI
 :root{
     --bg-black: #000;
     --bg-white: #fff;
+    --color-blue: #4464E2;
 
     --button-gray: #393939;
     --button-red: #B13F1B;
@@ -13,6 +14,10 @@ PALETTE COLORI
 /*
 REGOLE COMUNI
 */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .custom-button{
     color: white;
     padding: 5px 10px;
@@ -26,6 +31,10 @@ REGOLE COMUNI
 
 .custom-btn-red{
     background-color: var(--button-red);
+}
+
+.custom-btn-blue{
+    background-color: var(--color-blue);
 }
 
 /*
@@ -76,13 +85,17 @@ main{
 JUMBO
 */
 
-#jumbo{
+#jumbo, #game-banner{
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
-    height: 650px;
+    background-size: cover;
+    /* height: 650px; */
 }
 
-#jumbo .container{
-    padding: 300px 0 0 50px;
+#game-banner{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
 
+#jumbo .container, #game-banner .container{
+    padding: 300px 0 0 50px;
 }
