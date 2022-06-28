@@ -6,6 +6,7 @@ PALETTE COLORI
     --bg-black: #000;
     --bg-white: #fff;
     --color-blue: #4464E2;
+    --color-gray: #242424;
 
     --button-gray: #393939;
     --button-red: #B13F1B;
@@ -99,3 +100,14 @@ JUMBO
 #jumbo .container, #game-banner .container{
     padding: 300px 0 0 50px;
 }
+
+/*
+SECTION NEW RELEASE
+*/
+
+#new-release{
+    background-color: var(--color-gray);
+}
+
+/*
+*/
