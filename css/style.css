@@ -24,6 +24,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
+
 .custom-button{
     color: white;
     padding: 5px 10px;
@@ -91,6 +95,7 @@ header{
     top: 0;
     left: 0;
 }
+
 #header-title{
     text-align: right;
     padding: 5px 10px 5px 5px;
@@ -99,6 +104,14 @@ header{
 
 #header-title img{
     height: 20px;
+}
+
+header #header-link{
+    background-color: white;
+}
+
+header #header-link a{
+    margin-right: 20px;
 }
 
 /*
@@ -117,6 +130,18 @@ nav.navbar{
 
 nav .navbar-toggler{
     filter: invert(1);
+}
+
+/*
+REGOLE COLLAPSE
+*/
+
+#collapse-navbar{
+    background-color: white;
+}
+
+div.collapse ul.dotted{
+    list-style:disc;
 }
 
 
@@ -229,19 +254,4 @@ footer ul{
 footer ul li{
     margin: 10px 0;
     cursor: pointer;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.dropdown-menu{
-    width: 100%;
 }
